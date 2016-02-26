@@ -10,7 +10,8 @@
   :ring {:handler clonnecj-4.handler/app}
   :profiles
   {:dev-local {:dependencies [[javax.servlet/servlet-api "2.5"]
-                              [ring/ring-mock "0.3.0"]]
+                              [ring/ring-mock "0.3.0"]
+                              [speclj         "3.3.1"]]
                }
    :test-local {:dependencies [[javax.servlet/servlet-api "2.5"]
                                [ring/ring-mock "0.3.0"]

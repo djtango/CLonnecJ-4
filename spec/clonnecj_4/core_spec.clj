@@ -4,6 +4,6 @@
 
 (describe
   "First test"
-  (it "first it"
+  (it "Calling first fn"
       (should= true
-               true)))
+               (first-fn))))
