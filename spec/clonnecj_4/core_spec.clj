@@ -6,4 +6,4 @@
   "First test"
   (it "Calling first fn"
       (should= true
-               (first-fn))))
+               true)))

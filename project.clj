@@ -21,4 +21,5 @@
 
    :test [:test-local :test-env-vars]
    :dev [:dev-local :dev-env-vars]}
-  :test-paths ["spec"])
+  :test-paths ["spec"]
+  :main clonnecj-4.core)
