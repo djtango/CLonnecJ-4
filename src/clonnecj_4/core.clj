@@ -62,7 +62,6 @@
          board bp/empty-board]
     (println "Please select your column (1-7)")
     (let [mark (get {1 :o 2 :x} current-player)
-          ;; current-choice (get-column current-player)
           new-board (select-column current-player
                                    mark
                                    board)]
